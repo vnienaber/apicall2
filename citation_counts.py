@@ -4,7 +4,7 @@ import json
 import csv
 import random
 
-filestring = 'results_0_100000.csv'
+filestring = 'results_200000.csv'
 
 def dslquery(query, retries=0):
 
