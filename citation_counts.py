@@ -83,7 +83,7 @@ dois = ['10.1016/S0014-5793(01)03313-0', '10.1034/j.1399-3011.2002.21003.x']
 
 with open('dois.txt') as f:
     fdata = [line.rstrip() for line in f]
-f = fdata[0:100000]
+f = fdata[100000:200000]
 #print f
 
 start= time.time()
