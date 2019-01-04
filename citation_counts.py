@@ -4,7 +4,7 @@ import json
 import csv
 import random
 
-filestring = 'results_200000.csv'
+filestring = 'results_300000.csv'
 
 def dslquery(query, retries=0):
 
@@ -83,7 +83,7 @@ dois = ['10.1016/S0014-5793(01)03313-0', '10.1034/j.1399-3011.2002.21003.x']
 
 with open('dois.txt') as f:
     fdata = [line.rstrip() for line in f]
-f = fdata[100000:200000]
+f = fdata[200000:300000]
 #print f
 
 start= time.time()
